@@ -19,26 +19,27 @@ public class TestMain {
 
         }
         // Podział na dwie połowy:
-        int polowa = N / 2;
-        int czwarta = polowa / 2;
-        int osma = czwarta / 2;
+   int liczbaWatkow = 8;
+        int rozmiarSegmentu = N/liczbaWatkow;
 
+        // Tworzymy obiekt MinMax (wątek) w tablicy
 
-        // Tworzymy obiekt MinMax (wątek)
+        MinMax[] watki = new MinMax[liczbaWatkow];
 
+        for(int i = 0; )
 //        MinMax watek1 = new MinMax(tablica, 0,czwarta);
 //       MinMax watek2 = new MinMax(tablica, czwarta, polowa);
 //      MinMax watek3 = new MinMax(tablica,polowa,polowa+czwarta);
 //       MinMax watek4 = new MinMax(tablica,polowa +
 
-        MinMax watek1 = new MinMax(tablica, 0,osma);
-        MinMax watek2 = new MinMax(tablica,osma, czwarta);
-        MinMax watek3 = new MinMax(tablica,czwarta , 3*osma);
-        MinMax watek4 = new MinMax(tablica,3*osma, polowa);
-        MinMax watek5 = new MinMax(tablica, polowa,polowa+osma);
-        MinMax watek6 = new MinMax(tablica, polowa+osma, polowa+czwarta);
-        MinMax watek7 = new MinMax(tablica,polowa+czwarta, polowa+3*osma);
-        MinMax watek8 = new MinMax(tablica,polowa + 3*osma, N);
+//        MinMax watek1 = new MinMax(tablica, 0,osma);
+//        MinMax watek2 = new MinMax(tablica,osma, czwarta);
+//        MinMax watek3 = new MinMax(tablica,czwarta , 3*osma);
+//        MinMax watek4 = new MinMax(tablica,3*osma, polowa);
+//        MinMax watek5 = new MinMax(tablica, polowa,polowa+osma);
+//        MinMax watek6 = new MinMax(tablica, polowa+osma, polowa+czwarta);
+//        MinMax watek7 = new MinMax(tablica,polowa+czwarta, polowa+3*osma);
+//        MinMax watek8 = new MinMax(tablica,polowa + 3*osma, N);
 
 
         watek1.setName("W1");
