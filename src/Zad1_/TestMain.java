@@ -74,6 +74,8 @@ public class TestMain {
         long durationNs = endTime - startTime;
         double durationMs = durationNs / 1_000_000.0; // Konwersja na milisekundy
 
+
+
         int Min1 = watek1.getMin();
         int Max1 = watek1.getMax();
 
