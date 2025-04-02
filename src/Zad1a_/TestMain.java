@@ -1,4 +1,4 @@
-package Zad1_;
+package Zad1a_;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -77,8 +77,8 @@ public class TestMain {
         int Min1 = watek1.getMin();
         int Max1 = watek1.getMax();
 
-       int Min2 = watek2.getMin();
-       int Max2 = watek2.getMax();
+        int Min2 = watek2.getMin();
+        int Max2 = watek2.getMax();
 
         int Min3 = watek3.getMin();
         int Max3 = watek3.getMax();
@@ -90,15 +90,15 @@ public class TestMain {
 
 
         System.out.println("min1: " + Min1 + " Max1: " + Max1 + " Max2: " + Max2 + "Min2" + Min2);
-       System.out.println("min3: " + Min3 + " Max3: " + Max3 + " min4: " + Min4 + " max4 " + Max4);
+        System.out.println("min3: " + Min3 + " Max3: " + Max3 + " min4: " + Min4 + " max4 " + Max4);
 //
-         int MIN1 = Math.min(Min1, Min2);
-         int MAX1 = Math.max(Max1, Max2);
+        int MIN1 = Math.min(Min1, Min2);
+        int MAX1 = Math.max(Max1, Max2);
         int MIN2 = Math.min(Min3, Min4);
 
-       int MAX2 = Math.max(Max3, Max4);
+        int MAX2 = Math.max(Max3, Max4);
 
-       int MIN = Math.min(MIN1, MIN2);
+        int MIN = Math.min(MIN1, MIN2);
         int MAX = Math.max(MAX1, MAX2);
         System.out.println("MIN: " + MIN);
         System.out.println("MAX: " + MAX);
