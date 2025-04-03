@@ -1,6 +1,4 @@
-package Zad1a_;
-
-import java.util.Random;
+package Zad2a_;
 
 public class MinMax extends Thread{
 
