@@ -7,7 +7,7 @@ import java.util.Random;
 public class TestMain {
     public static void main(String[] args) {
 
-        int N = 20;
+        int N = 200000000;
 
         double[] tablica = new double[N];
 
@@ -19,7 +19,7 @@ public class TestMain {
 
         }
 
-        int liczbaWatkow = 1;
+        int liczbaWatkow = 500;
         int rozmiarSegmentu = N/liczbaWatkow;
 
         // Tworzymy obiekt MinMax (wątek) w tablicy
