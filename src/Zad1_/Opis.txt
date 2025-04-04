@@ -1,0 +1,36 @@
+1.Czy czas działania programu zmienia się w zależności od liczby wątków?
+tak czas dzialania zmienia się wraz z liczba wątków, zmniejsza się.
+
+2.Jaki jest czas dzialania programu  dla 1 , 2 ,4, 6, 8 watkow?
+1 watek
+Czas wyszukiwania min/max: 178509800 ns
+Czas wyszukiwania min/max: 178.5098 ms
+
+2 watki
+Czas wyszukiwania min/max: 99479000 ns
+Czas wyszukiwania min/max: 99.479 ms
+
+4 watki
+Czas wyszukiwania min/max: 71279600 ns
+Czas wyszukiwania min/max: 71.2796 ms
+
+6 watki
+Czas wyszukiwania min/max: 79020200 ns
+Czas wyszukiwania min/max: 79.0202 ms
+
+8 watki
+Czas wyszukiwania min/max: 65494800 ns
+Czas wyszukiwania min/max: 65.4948 ms
+
+3. jaka jest zależność czasu działania programu i liczby rdzeni procesora?
+Więcej rdzeni zazwyczaj skraca czas działania, ale efektywność maleje wraz ze
+ wzrostem liczby wątków ze względu na narzuty synchronizacyjne i ograniczenia sprzętowe.
+
+4. podaj nazwe i typ swojego procesora.
+
+ nazwa: Intel(R) Core(TM) i5-3550S CPU @ 3.00GHz
+ Typ: 64-bitowy, Intel64 Family 6 Model 58 Stepping 9
+ liczba rdzeni: 4/liczba watkow:4
+
+ Nazwa  systemu: Microsoft Windows 10 Pro,
+ romiarRAM : 8GB,
