@@ -1,0 +1,12 @@
+1. jaka jest zależność czasu działania programu i liczby rdzeni procesora?
+Więcej rdzeni zazwyczaj skraca czas działania, ale efektywność maleje wraz ze
+ wzrostem liczby wątków ze względu na narzuty synchronizacyjne i ograniczenia sprzętowe.
+
+2. podaj nazwe i typ swojego procesora.
+
+ nazwa: Intel(R) Core(TM) i5-3550S CPU @ 3.00GHz
+ Typ: 64-bitowy, Intel64 Family 6 Model 58 Stepping 9
+ liczba rdzeni: 4/liczba watkow:4
+
+ Nazwa  systemu: Microsoft Windows 10 Pro,
+ romiarRAM : 8GB,

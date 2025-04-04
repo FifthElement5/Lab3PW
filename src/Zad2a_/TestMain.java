@@ -7,6 +7,7 @@ import java.util.Random;
 public class TestMain {
     public static void main(String[] args) {
 
+
         int N = 200000000;
 
         int[] tablica = new int[N];
@@ -18,8 +19,8 @@ public class TestMain {
             tablica[i] = liczba;
 
         }
-
-   int liczbaWatkow = 500;
+ //!!!!!!!!! zmienna  liczbaWatkow - tu  zmienia sie liczbe watkow
+   int liczbaWatkow = 8;
         int rozmiarSegmentu = N/liczbaWatkow;
 
         // Tworzymy obiekt MinMax (wątek) w tablicy
@@ -54,7 +55,7 @@ public class TestMain {
             }
         }
 
-
+// metoda tylko dla testow
 //        for (int i = 0; i < liczbaWatkow; i++) {
 //            watki[i].rysuj();
 //        }
@@ -70,6 +71,7 @@ public class TestMain {
             MAX[i] = watki[i].getMax();
         }
 
+ // tylko dla testow
 //        for (int i = 0; i < liczbaWatkow; i++) {
 //           System.out.print("min tabela:" + MIN[i] );
 //           System.out.println("max tabela: " + MAX[i]);
