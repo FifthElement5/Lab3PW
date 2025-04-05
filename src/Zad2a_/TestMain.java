@@ -7,7 +7,7 @@ import java.util.Random;
 public class TestMain {
     public static void main(String[] args) {
 
-
+// N rozmiar tablicy
         int N = 200000000;
 
         int[] tablica = new int[N];
@@ -31,7 +31,7 @@ public class TestMain {
             int start = i * rozmiarSegmentu;
             int end;
             if (i == liczbaWatkow - 1) {
-                end = N; // ostni watek obejmuje tablice
+                end = N; // ostani watek obejmuje tablice
             } else {
                 end = start + rozmiarSegmentu; //standardowy podzial
             }
